@@ -40,10 +40,7 @@ print(model.best_params_)
 model = model.best_estimator_
 dump(model, 'model.pkl')
 
-
 print(mean_absolute_error(Y, model.predict(X)))
-
-
 
 # import matplotlib.pyplot as plt
 
