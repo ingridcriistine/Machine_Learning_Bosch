@@ -1,0 +1,76 @@
+Google colab : https://colab.google/ 
+
+* Label Encoder
+
+Aprendizados
+- Supervisionado
+- Não supervisionado
+
+Problemas
+- Classificação - prever classes definidas(sim/não, tipos)
+- Regressão - prever valores contínuos
+- Clusterização
+
+Overfitting: 
+- "decora" os dados de entrada e só funciona com eles.
+- aprendeu tão bem com os dados de entrada que não consegue lidar com outros
+- não igualou os resultados de treino com os de teste
+-> como lidar: mexer em alguns parâmetros que podem influenciar no resultado
+
+Underfitting:
+- o modelo (algoritmo) não consegue resolver nem entender nada dos dados
+- não atingiu 100% de acerto
+-> como lidar: trocar o algoritmo/modelo
+
+
+Algoritmo
+- Decision tree -> algoritmo de classificação
+-> aumentar o n de depth e minsamples para reduzir o overfitting
+
+- Modelos lineares
+
+Algoritmo mais importante: Stochastic Gradient Descent
+-> pega 10 mil dados aleatórios e vai para a direção correta, lendo aos pouquinhos todos os dados existentes
+
+alfa - parâmetro de aprendizagem
+
+--------------------------------------------------------------------------------------------
+
+Nearest Neighbors: 
+
+Ensemble: junta vários modelos para criar algo mais robusto
+-> Bagging - técnica que junta vários subconjuntos de dados para treinar múltiplos modelos independentes
+	- Voting
+	- Random Forest
+-> Boosting: treina os modelos separados: os dados que foram mais errados pelo primeiro modelo são passados para o segundo treinar, os erros do segundo para o terceiro...
+	- Ada Boost
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,20 @@
+Sigmoid - boa, mas lenta
+ReLU - mais rápida
+
+Overfitting
+-> Aumentar rede neural
+-> Dropout (treina com um neurônio a menos)
+-> Early Stopping (vai treinando e para antes que o overfitting se intensifique)
+
+Underfitting
+-> Mais neurônios e mais camadas
+
+Para treinar a rede neural é preciso tirar a derivada dos pesos e aplicar o SGD
+
+Convolução
+camada de pooling
+
+dados + complexos = mais camadas
+dados + detalhados = mais neurônios
+
+https://www.kaggle.com/datasets/trolukovich/food11-image-dataset
